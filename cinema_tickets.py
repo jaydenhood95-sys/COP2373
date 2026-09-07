@@ -5,7 +5,7 @@
 def get_tickets(tickets_left):
     """Ask the user how many tickets they want to buy."""
 
-    tickets = int(input("How many tickets would you like to buy? "))
+    tickets = int(input("How many movie tickets do you need? "))
 
     # Check that the buyer's request is allowed.
     if tickets >= 1 and tickets <= 4 and tickets <= tickets_left:
