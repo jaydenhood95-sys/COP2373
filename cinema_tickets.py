@@ -25,7 +25,7 @@ def main():
     """Run the cinema ticket pre-sale program."""
 
     # Start with 20 tickets and no buyers.
-    tickets_left = 20
+    tickets_left = 10
     buyers = 0
 
     print("Welcome to the Cinema Ticket Pre-Sale!")
