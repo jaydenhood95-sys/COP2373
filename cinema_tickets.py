@@ -26,7 +26,7 @@ def main():
 
     # Start with 20 tickets and no buyers.
     tickets_left = 10
-    buyers = 0
+    total_buyers = 0
 
     print("Welcome to the Cinema Ticket Pre-Sale!")
     print("There are 20 tickets available.")
@@ -40,7 +40,7 @@ def main():
         # Only update the totals when the purchase is valid.
         if tickets > 0:
             tickets_left = tickets_left - tickets
-            buyers = buyers + 1
+            total_buyers = total_buyers + 1
 
             # Display the number of tickets left.
             show_remaining(tickets_left)
@@ -48,7 +48,7 @@ def main():
 
     # Display the final results.
     print("All tickets have been sold!")
-    print("Total number of buyers:", buyers)
+    print("Total number of buyers:", total_buyers)
 
 
 # Start the program.
